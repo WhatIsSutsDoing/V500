@@ -646,7 +646,7 @@ export default function VocabLearner() {
           {/* Quick start all */}
           <div style={{ background: "#1A1A1A", borderRadius: "14px", padding: "20px", marginBottom: "20px", display: "flex", gap: "10px", flexDirection: "column" }}>
             <div style={{ color: "#F7C873", fontFamily: "sans-serif", fontSize: "11px", fontWeight: "700", letterSpacing: "1.5px", textTransform: "uppercase" }}>Quick Start</div>
-            <div style={{ color: "#F7F4EF", fontSize: "18px", fontWeight: "bold" }}>All 100 Words</div>
+            <div style={{ color: "#F7F4EF", fontSize: "18px", fontWeight: "bold" }}>All 500 Words</div>
             <div style={{ display: "flex", gap: "8px" }}>
               <button onClick={() => startSession("All", "browse")} style={{ flex: 1, padding: "11px", border: "2px solid #444", borderRadius: "9px", background: "transparent", color: "#F7F4EF", cursor: "pointer", fontFamily: "sans-serif", fontSize: "13px", fontWeight: "600" }}>📖 Flashcards</button>
               <button onClick={() => startSession("All", "quiz")} style={{ flex: 1, padding: "11px", border: "none", borderRadius: "9px", background: "#F7C873", color: "#1A1A1A", cursor: "pointer", fontFamily: "sans-serif", fontSize: "13px", fontWeight: "700" }}>⚡ Quiz</button>
